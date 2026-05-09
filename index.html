@@ -3,26 +3,68 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Brand</title>
+        <title>Aero Axis</title>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/hero.css">
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Brand</a>
+                <a href="index.html" class="navbar-brand h2">Aero Axis</a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="#vision" class="nav-item nav-link">Vision</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
-                    </div>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#problem" class="nav-item nav-link">The Problem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#features" class="nav-item nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#compare" class="nav-item nav-link">Compare</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-item nav-link text-primary">Contact</a>
+                        </li>
+                    </ul>
+                </div>
                 </div>
             </div>
         </nav>
+        <div class="container-sm">
+            <div class="row">
+                <div class="col-md">
+                    <div class="container-fluid mt-4">
+                        <p class="hero-text-title">The Wheel That Never <span class="text-primary">Wobbles</span></p>
+                        <p class="p">Engineered for the demands of modern retail. Smoother, quieter, and built to outlast every wheel Costco and Superstore has ever used — by a long shot. </p>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-primary btn-md">Get A Demo</button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-primary btn-md">Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="container mt-4">
+                        <img src="assets/img/hero.jpg" alt="Aero Axis Wheel" class="hero-banner-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="container-sm">
+            <div class="row">
+                <div class="col-md">
+                    <p class="h4">The Problem</p>
+                    <p class="h2">Everyone Hates Wobbly Carts</p>
+                </div>
+            </div>
+        </div>  -->
     </body>
 </html>
